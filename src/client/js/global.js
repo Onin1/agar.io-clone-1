@@ -24,7 +24,7 @@ module.exports = {
     xoffset: -0,
     yoffset: -0,
     gameStart: false,
-    disconnected: false,
+    disconnected: true,
     died: false,
     kicked: false,
     continuity: false,
