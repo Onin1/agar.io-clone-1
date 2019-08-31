@@ -85,7 +85,7 @@ exports.findIndex = function(arr, id) {
 };
 
 exports.randomColor = function() {
-    var color = 'red' + ('00000' + (Math.random() * (1 << 24) | 0).toString(16)).slice(-6);
+    var color = '#' + ('00000' + (Math.random() * (1 << 24) | 0).toString(16)).slice(-6);
     var c = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(color);
     var r = (parseInt(c[1], 16) - 32) > 0 ? (parseInt(c[1], 16) - 32) : 0;
     var g = (parseInt(c[2], 16) - 32) > 0 ? (parseInt(c[2], 16) - 32) : 0;
