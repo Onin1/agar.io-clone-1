@@ -5,7 +5,7 @@
     "foodMass": 2,
     "fireFood": 50,
     "limitSplit": 16,
-    "defaultPlayerMass": 100,
+    "defaultPlayerMass": 1,
 	"virus": {
     "fill": "#33ff33",
   	"stroke": "#19D119",
